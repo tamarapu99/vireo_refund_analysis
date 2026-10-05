@@ -1,0 +1,11 @@
+.venv/
+.env
+__pycache__/
+.DS_Store
+
+data/
+
+outputs/cleaned_refunds.csv
+outputs/ai_test_results.csv
+analysis_backup.py
+analysis_backup_v2.py

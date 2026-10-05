@@ -1,0 +1,24 @@
+Classify the refund into ONE of these codes:
+
+GW-OTHER = Goodwill or other refund
+RETURN-QC-OK = Return was completed and quality check passed
+DUP-PAYMENT = Duplicate payment
+CANCEL = Order cancellation
+DOA-REPL = Dead on arrival or replacement case
+WTY-BUYBACK = Warranty or hardware issue resulting in refund
+PRICE-ADJ = Price adjustment
+LOST-TRANSIT = Product lost or damaged during transit
+
+Important:
+A warranty question or warranty claim by itself does NOT mean RETURN-QC-OK.
+Use RETURN-QC-OK only when the notes clearly say that the returned product passed the quality check.
+
+Customer message:
+{customer_message}
+
+Agent notes:
+{agent_notes}
+
+Choose the code that best explains why the refund was processed.
+
+Reply with ONLY the code.
